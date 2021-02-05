@@ -10,15 +10,19 @@
 body {
     background: black;
     font-family: 'Poppins', sans-serif;
+    left: 0;
 }
 
 .en-tete {
     border-bottom: #D58936 solid 7px;
+    height: 14em;
+    margin-top: 0;
 }
 
 .titres {
     color: white;
-    margin-left: 3em;
+    margin-left: 7em;
+    margin-top: 4em;
 }
 
 .titre-secondaire {
@@ -29,7 +33,7 @@ body {
 .img-en-tete {
     position: absolute;
     width: 100%;
-    height: 15em;
+    height: 15.5em;
     left: 0px;
     top: 0px;
     opacity: 0.4;
@@ -43,7 +47,8 @@ body {
     z-index: 1000;
     animation: ease-out;
     transition: 0.24s;
-
+    top: 4em;
+    left: 2em;
 }
 
 .img-menu:hover {
