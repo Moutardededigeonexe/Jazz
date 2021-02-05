@@ -2,9 +2,11 @@
 
 .background-image-saxophone {
     position: fixed;
-    top: 0;
+    top: 15.5em;
+    height: 100%;
     display: table;
     opacity: 0.4;
+    z-index: -100;
 }
 
 body {
@@ -14,20 +16,7 @@ body {
 }
 
 .en-tete {
-
-    height: 14em;
-    margin-top: 0;
-}
-
-.titres {
-    color: white;
-    margin-left: 7em;
-    margin-top: 4em;
-}
-
-.titre-secondaire {
-    color: #D58936;
-    margin-left: 5em;
+    height: 15.5em;
 }
 
 .img-en-tete {
@@ -37,8 +26,8 @@ body {
     left: 0px;
     top: 0px;
     opacity: 0.4;
-    border-radius: 25px;
     border-bottom: #D58936 solid 7px;
+    z-index: -50;
 }
 
 .img-menu {
@@ -49,7 +38,8 @@ body {
     animation: ease-out;
     transition: 0.24s;
     top: 4em;
-    left: 2em;
+    left: 4em;
+    bottom: 4em;
 }
 
 .img-menu:hover {
@@ -59,15 +49,30 @@ body {
 }
 
 .paragraphe {
-    color: aliceblue;
+    color: white;
+    margin-left: 1.7em;
+    font-size: 2.6em;
+    line-height: 1.5em;
+}
+
+.titres {
+    color: white;
+    margin-left: 3em;
+    font-size: 6em;
+}
+
+.titre-secondaire {
+    color: #D58936;
     margin-left: 1em;
-    size: 16px;
-    line-height: 24px;
+    font-size: 5em;
 }
 
 .video {
-    display: inline-block;
+    display: table;
     z-index: 3000;
+    margin: auto;
+    width: 50em;
+    height: 30em;
 }
 
 .white {
