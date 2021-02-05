@@ -14,7 +14,7 @@ body {
 }
 
 .en-tete {
-    border-bottom: #D58936 solid 7px;
+
     height: 14em;
     margin-top: 0;
 }
@@ -38,6 +38,7 @@ body {
     top: 0px;
     opacity: 0.4;
     border-radius: 25px;
+    border-bottom: #D58936 solid 7px;
 }
 
 .img-menu {
