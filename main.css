@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    background: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.en-tete {
+    border-bottom: #D58936 solid 3px;
+}
+
+.titres {
+    color: white;
+    margin-left: 1.5em;
+}
+
+.titre-secondaire {
+    color: #D58936;
+    margin-left: 1em;
+}
+
+.image-de-fond-saxophone {
+    position: absolute;
+    width: 375px;
+    height: 710px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.4;
+    display: flow;
+}
+
+.img-en-tete {
+    position: absolute;
+    width: 330px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.4;
+    border-radius: 25px;
+}
+
+.img-menu {
+    border-radius: 100%;
+    display: inline-block;
+    position: fixed;
+    z-index: 1000;
+}
+
+.img-menu:hover {
+    cursor: pointer;
+    height: 50;
+    width: 50;
+}
+
+.paragraphe {
+    color: aliceblue;
+    margin-left: 1em;
+    size: 16px;
+    line-height: 24px;
+}
+
+.video {
+    display: inline-block;
+    z-index: 3000;
+}
