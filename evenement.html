@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Evenement</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="evenement">
+
+<nav>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Accueil</a>
+        <a href="artiste_musique.html">Artiste / Musique</a>
+        <a class="Actuel" href="instrument.html">Instruments</a>
+        <a href="evenement.html">Evenements</a>
+        <a href="apropos.html">A propos</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">
+        <img src=".idea/img/pngegg.png" height="140em" width="140em" class="img-menu dropbtn"/></button>
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "40em";
+            document.getElementById("mySidepanel").style.height = "50em";
+        }
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("mySidepanel").style.height = "0";
+        }
+    </script>
+</nav>
+
+<header class="en-tete">
+    <h1 class="titres">Evenement</h1>
+</header>
+
+<p class="paragraphe">Beaucoup d’évènement de jazz sont organisés chaque années et dans tout les coins du globes, notamment à en France et en Amériques dans beaucoup de restaurants ou de bars.<br><br>
+    Historiquement, l’essor de la musique d’ambiance dans les restaurants date des années 1950 pour l’Amérique et 1960 pour l’Europe lors du développement du tourisme de masse.<br><br>
+    Tout s’est développé durant la croissance de nombre lieux touristique dont les commerce, magasins, supermarché, hôtels, la construction de nombreuses gares et aéroports sont les facteur principaux de la créations, du développement et du perfectionnement de la musique d’ambiance.<br><br>
+    Plus tard, la musique de bar se développa dans toute l’Europe. En suisse, chaque années, se déroule le Montreux Jazz festival durant deux semaines au bord du lac Léman.<br><br>
+    Beaucoup d’artiste viennent y jouer chaques années dont Miles Davis qui s’y est présenté.<br><br>
+    Il est le deuxième plus grand festival de Jazz annuel après le Festival international de Jazz de Montréal au Canada, regroupant des artistes venues du monde entier.
+
+</p>
+<footer></footer>
+</body>
+</html>

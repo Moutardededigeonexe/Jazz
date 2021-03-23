@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Instruments</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="trompette">
+
+/* Menu déroulant */
+<nav>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Accueil</a>
+        <a href="artiste_musique.html">Artiste / Musique</a>
+        <a class="Actuel" href="instrument.html">Instruments</a>
+        <a href="evenement.html">Evenements</a>
+        <a href="apropos.html">A propos</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">
+        <img src="img/img_menu_deroulant.png" height="140em" width="140em" class="img-menu dropbtn"/></button>
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "40em";
+            document.getElementById("mySidepanel").style.height = "50em";
+        }
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("mySidepanel").style.height = "0";
+        }
+    </script>
+</nav>
+
+<header class="en-tete">
+    <h1 class="titres">Instruments</h1>
+</header>
+
+<p class="paragraphe">Souvent, le jazz comporte les cinq instrument emblématique du Jazz, le saxophone, la trompette, le trombone, la clarinette et le piano.<br><br>
+    Certain de ces instruments peuvent varier ou peuvent être  remplacés par une batterie, de la guitare ou une contrebasse.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Instrument</th>
+            <th>Date de cr.</th>
+            <th>Type</th>
+            <th>Utilisation (style)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Saxophone</td>
+            <td>1941</td>
+            <td>Bois</td>
+            <td>Jazz</td>
+        </tr>
+        <tr>
+            <td>Piano</td>
+            <td>1709</td>
+            <td>Touche</td>
+            <td>Tout</td>
+        </tr>
+        <tr>
+            <td>Guitare</td>
+            <td>1874</td>
+            <td>Cordes</td>
+            <td>Tout</td>
+        </tr>
+        <tr>
+            <td>Saxophone</td>
+            <td>1941</td>
+            <td>Bois</td>
+            <td>Jazz</td>
+        </tr>
+
+
+    </tbody>
+</table>
+
+<div class="container-image">
+    <img src="img/1914935.jpg" alt="saxophone" class="image-instru"><h3>Saxophone</h3>
+</div>
+<div class="container-image">
+    <img src="img/piano_fond_blanc.jpg" alt="piano" class="image-instru"><h3>Piano</h3>
+</div>
+<div class="container-image">
+    <img src="img/guitare_fond_blanc.jpg" alt="guitare" class="image-instru"><h3>Guitare</h3>
+</div>
+<div class="container-image">
+    <img src="img/batterie_fond_blanc.jpg" alt="batterie" class="image-instru"><h3>Batterie</h3>
+</div>
+<div class="container-image">
+    <img src="img/trompette_fond_blanc.webp" alt="trompette" class="image-instru"><h3>Trompette</h3>
+</div>
+
+</body>
+</html>

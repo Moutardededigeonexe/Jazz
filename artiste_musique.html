@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Artiste / Musique</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="artistes">
+
+/* Menu déroulant */
+<nav>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Accueil</a>
+        <a href="artiste_musique.html">Artiste / Musique</a>
+        <a class="Actuel" href="instrument.html">Instruments</a>
+        <a href="evenement.html">Evenements</a>
+        <a href="apropos.html">A propos</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">
+        <img src=".idea/img/pngegg.png" height="140em" width="140em" class="img-menu dropbtn"/></button>
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "40em";
+            document.getElementById("mySidepanel").style.height = "50em";
+        }
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("mySidepanel").style.height = "0";
+        }
+    </script>
+</nav>
+
+<header class="en-tete">
+    <h1 class="titres">Artistes</h1>
+</header>
+
+<h2 class="titre-secondaire">Musiques <span class="white">emblématiques du Jazz</span></h2>
+
+<ul class="white list">
+    <li>So what – Miles Davis (1959)</li>
+    <li>Blue in Green – Miles Davis (1959)</li>
+    <li>Autumn Leaves – Chet Baker (1945)</li>
+    <li>Water melon Man – Herbie Hancock (1962)</li>
+    <li>Caravan – John Wasson (2014)</li>
+    <li>La vie en Rose – Louis Amstrong (1944)</li>
+    <li>Girl from Impanema – Gilberto (1991)</li>
+</ul>
+<br>
+<h2 class="titre-secondaire">Légendes
+    <span class="white">du Jazz</span></h2>
+<ul class="white list">
+    <li>Miles Davis (trompettiste)</li>
+    <li>Herbie Hancock (clavier)</li>
+    <li>Chet Baker (trompettiste)</li>
+    <li>Charlie Watts (batteur)</li>
+    <li>Ronnie Wood (guitariste)</li>
+    <li>Mick Jagger (chanteur)</li>
+</ul>
+
+<footer></footer>
+</body>
+</html>

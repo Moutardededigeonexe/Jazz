@@ -1,18 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Le Jazz</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="sax-background">
 
-<img src="img/saxophone4k - Copie.jpg" alt="image-de-saxophone" class="background-image-saxophone"/>
+/* Menu déroulant */
+<nav>
+<div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Accueil</a>
+    <a href="artiste_musique.html">Artiste / Musique</a>
+    <a class="Actuel" href="instrument.html">Instruments</a>
+    <a href="evenement.html">Evenements</a>
+    <a href="apropos.html">A propos</a>
+</div>
+<button class="openbtn" onclick="openNav()">
+    <img src=".idea/img/pngegg.png" height="140em" width="140em" class="img-menu dropbtn"/></button>
+<script>
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "40em";
+        document.getElementById("mySidepanel").style.height = "50em";
+    }
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+        document.getElementById("mySidepanel").style.height = "0";
+    }
+</script>
+</nav>
+
 
 <header class="en-tete">
-    <img src=".idea/img/pngegg.png" height="140em" width="140em" class="img-menu"/>
-    <img src=".idea/img/batterie-banner.jpg" height="80%" width="80%" class="img-en-tete"/>
-    <h1 class="titres">Histoire</h1></header>
+    <h1 class="titres">Histoire</h1>
+</header>
 
     <h2 class="titre-secondaire">Le Jazz</h2>
 
@@ -21,7 +43,7 @@
         Il émerge principalement du blues et comporte les caractéristique telles que l’utilisation fréquente de l’improvisation, de la polyrythmie et du shuffle.<br><br>
     </p>
 
-    <iframe src="https://www.youtube.com/embed/ZZY-Ytrw2co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video" alt="video-Jazz"></iframe>
+    <iframe src="https://www.youtube.com/embed/ZZY-Ytrw2co" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video" alt="video-Jazz"></iframe>
 
 <footer></footer>
 </body>
