@@ -29,6 +29,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .float-left {
@@ -41,6 +42,7 @@ body {
 
 h3 {
     color: white;
+    text-shadow: 0 5px 5px #000;
 }
 
 .img-en-tete {
